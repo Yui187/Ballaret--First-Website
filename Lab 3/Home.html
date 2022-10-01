@@ -76,13 +76,8 @@
   saveBtn.onclick = () => {
     const firstName = firstNameInput.value;
     const lastName = lastNameInput.value;
-    const array = []
-
-    array.push(firstName + ' ' + lastName)
-   
-    array.map((item) => {
-      studentList.innerHTML += `<li class="list-group-item" > ${item} </li>`
-    })
+    
+    studentList.innerHTML += `<li class="list-group-item" > ${firstName}  ${lastName}  </li>`
 
     addBtn.style.display = "block";
     studentList.style.display = "block";
