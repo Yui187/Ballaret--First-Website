@@ -15,36 +15,40 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div class="w-50 pt-2 mt-2 mb-2 d-flex justify-content-end">
-      <button class="btn btn-primary w-25" id="add-btn"> Add </button>
-    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
 
-    <div class="w-50">
-      <ul class="list-group mb-3" id="student-list">
-        <li class="list-group-item list-group-item-secondary"> People </li>
-        <li class="list-group-item" > Steven Ballaret </li>
-        <li class="list-group-item"> Venie Yu </li>
-        <li class="list-group-item"> Xavier Balume </li>
-      </ul>
-    </div>
-
-    <div class="card w-50" id="student-details-section">
-      <div class="card-body">
+        <div class="pt-2 mt-2 mb-2 d-flex justify-content-end">
+          <button class="btn btn-primary w-25" id="add-btn"> Add </button>
+        </div>
 
         <div>
-          <label class="mb-2"> Name </label>
-          <input  class="form-control" type="text" id="first-name" placeholder="First Name"/>
+          <ul class="list-group mb-3" id="student-list">
+            <li class="list-group-item list-group-item-secondary"> People </li>
+            <li class="list-group-item" > Ernest Ardiente </li>
+            <li class="list-group-item"> Venie Yu </li>
+            <li class="list-group-item"> Xavier Balume </li>
+          </ul>
         </div>
-      
-        <div>
-          <label class="mb-2"> Last Name</label>
-          <input class="form-control" type="text" id="last-name" placeholder="Last Name"/>
-        </div>
-      </div>
 
-      <div class="card-footer d-flex justify-content-end">
-        <button class="btn btn-danger w-25" id="cancel-add-btn"> Cancel </button>
-        <button  class="btn btn-primary w-25" id="save-btn"> Save </button>
+        <div class="card" id="student-details-section">
+          <div class="card-body">
+            <div>
+              <label class="mb-2"> Name </label>
+              <input  class="form-control" type="text" id="first-name" placeholder="First Name"/>
+            </div>
+          
+            <div>
+              <label class="mb-2"> Last Name</label>
+              <input class="form-control" type="text" id="last-name" placeholder="Last Name"/>
+            </div>
+          </div>
+
+          <div class="card-footer d-flex justify-content-end">
+            <button class="btn btn-danger w-25 me-2" id="cancel-add-btn"> Cancel </button>
+            <button  class="btn btn-primary w-25" id="save-btn"> Save </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
